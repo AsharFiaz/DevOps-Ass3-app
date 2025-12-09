@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Main Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Atif-629/devops_assignment3.git'
+                git branch: 'main', url: 'https://github.com/AsharFiaz/DevOps-Ass3-app.git'
             }
         }
 
